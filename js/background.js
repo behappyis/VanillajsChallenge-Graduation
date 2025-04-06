@@ -1,6 +1,7 @@
 const body = document.body;
 const BACKGROUND_KEY = "images/GFRIEND-IMG/";
 const randomMAX = 33;
+const intervalNUM = 60 * 5 * 1000;
 
 function backgroundSet(){
     const randomNum = Math.floor(Math.random() * (randomMAX+1));
@@ -10,4 +11,4 @@ function backgroundSet(){
 
 body.addEventListener("load", backgroundSet());
 
-setInterval(backgroundSet, 60*5*1000);
+setInterval(backgroundSet, intervalNUM);
