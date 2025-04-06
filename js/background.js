@@ -1,5 +1,5 @@
 const body = document.body;
-const BACKGROUND_KEY = "/images/GFRIEND-IMG/";
+const BACKGROUND_KEY = "images/GFRIEND-IMG/";
 const randomMAX = 33;
 
 function backgroundSet(){
